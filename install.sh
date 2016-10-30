@@ -487,6 +487,9 @@ defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144;o
 running "Follow the keyboard focus while zoomed in"
 defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true;ok
 
+running "Use F1, F2, etc as standard function keys"
+defaults write -g com.apple.keyboard.fnState -boolean true; ok
+
 #running "Disable press-and-hold for keys in favor of key repeat"
 #defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false;ok
 

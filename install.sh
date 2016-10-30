@@ -618,6 +618,8 @@ bot "Dock & Dashboard"
 
 #running "Set the icon size of Dock items to 36 pixels"
 #defaults write com.apple.dock tilesize -int 36;ok
+running "Show only active apps"
+defaults write com.apple.dock static-only -bool TRUE;ok
 
 running "Change minimize/maximize window effect to scale"
 defaults write com.apple.dock mineffect -string "scale";ok

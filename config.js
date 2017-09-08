@@ -2,7 +2,8 @@ module.exports = {
   brew: [
   ],
   cask: [
-    'iterm2'
+    'iterm2',
+    'alfred'
   ],
   gem: [
   ],

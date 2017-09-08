@@ -557,8 +557,8 @@ running "Set Desktop as the default location for new Finder windows"
 defaults write com.apple.finder NewWindowTarget -string "PfDe"
 defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/Desktop/";ok
 
-running "Show hidden files by default"
-defaults write com.apple.finder AppleShowAllFiles -bool true;ok
+running “Hide hidden files by default"
+defaults write com.apple.finder AppleShowAllFiles -bool false;ok
 
 running "Show all filename extensions"
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true;ok

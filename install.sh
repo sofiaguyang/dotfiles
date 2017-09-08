@@ -681,6 +681,9 @@ defaults write com.apple.dock showhidden -bool true;ok
 #running "Make Dock more transparent"
 #defaults write com.apple.dock hide-mirror -bool true;ok
 
+running "Remove all kept apps in the dock"
+defaults write com.apple.dock persistent-apps -array
+
 running "Reset Launchpad, but keep the desktop wallpaper intact"
 find "${HOME}/Library/Application Support/Dock" -name "*-*.db" -maxdepth 1 -delete;ok
 

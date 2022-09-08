@@ -1,9 +1,12 @@
 module.exports = {
   brew: [
+    'mackup'
   ],
   cask: [
     'iterm2',
-    'alfred'
+    'alfred',
+    'opera',
+    'bettertouchtool'
   ],
   gem: [
   ],

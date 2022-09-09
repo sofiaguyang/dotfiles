@@ -6,7 +6,8 @@ module.exports = {
     'iterm2',
     'alfred',
     'opera',
-    'bettertouchtool'
+    'bettertouchtool',
+    'visual-studio-code'
   ],
   gem: [
   ],
